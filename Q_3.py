@@ -17,7 +17,7 @@ for i in range(len(array)-1):
         else:
             count0 +=1
 
-result = min(count1,count0)
+result = min(count1,count0)ß
 print(result)
 
 
