@@ -29,7 +29,6 @@ def bfs(x,y):
     while q : 
         x,y = q.popleft()
         graph[x][y]= 0
-        check[x][y]=True
         width += 1
         for i in range(4):
             nx = x + dx[i]

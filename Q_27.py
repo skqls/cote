@@ -18,5 +18,5 @@ def count_number_by_range(array, left_target, right_target):
 
 answer = count_number_by_range(data,x,x)
 
-print(answer) if answer != 0 else -1
+print(answer) if answer != 0 else print(-1)
 
