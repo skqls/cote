@@ -1,3 +1,8 @@
+import sys
+sys.stdin = open("input.txt","r")
+input = sys.stdin.readline
+
+
 n, s = map(int, input().split())
 array = list(map(int, input().split()))
 visited = [False] * n
